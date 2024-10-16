@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedágio</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/pedagio.js" defer></script>
+</head>
+<body>
+
+    <h1> Cálculo Pedágio</h1>
+    <p></p>
+
+    <label for=" pla">Informe a placa do veículo: </label>
+    <input type="text" name="placa" id="placa"><p></p>
+
+    <label for=" horario">Informe o horário passado pela primeira parada: </label>
+    <input type="time" name="hora1" id="hora1"> <p></p>
+
+    <label for=" horario">Informe o horário passado pela segunda parada: </label>
+    <input type="time" name="hora2" id="hora2"> <p></p>
+
+    <button id="btnCalc">Calcular</button>
+    <button id="btnLimp">Limpar</button><p></p>
+
+    <p>Placa do Veículo: <span id="PlacaVeic"></span></p>
+    <p>Hora de entrada no trecho A: <span id="TrechoA"></span></p>
+    <p>Hora de entrada no trecho B: <span id="TrechoB"></span></p>
+    <p>Tempo gasto: <span id="timeGast"></span></p>
+    <p>Velocidade média: <span id="veloMed"></span></p>
+    <p>Valor do Pedágio: <span id="valor"></span></p>
+
+    
+</body>
+</html>
